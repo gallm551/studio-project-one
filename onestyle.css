@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: lightblue;
+	font-size: 16px;
+	height: auto;
+}
+
+img {
+	margin: 0;
+	padding: 10px;
+	padding-left: 25px;
+	height: auto;
+	max-width: 100%;
+	width: 32%;
+	float: left;
+	line-height: 1px;
+	transition: opacity 500ms ease-in-out, transform 2.5s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.5;
+	transform: rotate(90deg);
+	-webkit-filter: hue-rotate(80deg); /* Safari 6.0 - 9.0 */
+  	filter: hue-rotate(100deg);
+  }
+
+
+
